@@ -4,7 +4,7 @@
     font-family: "Verdana", "DejaVu Sans", "sans-serif"; 
 }
 
-.chakram.pinga {
+.pinga {
 
     font-size: 24px;
 
@@ -20,9 +20,11 @@
 #cuatromil {
 
     background-color: #90ee90;
-    font-size: 24px; font-weight: bold;
+    font-weight: bold;
 
 }
 
 
-/* Since item 3 and 4 shared 24px we could have recicle that code. will commit the fix*/
+/* Since item 3 and 4 shared 24px we could have recicle that code. will commit the fix
+¡No need for calling both classes on item 2!, thats crucial for better
+understanding of classes and attributes */
