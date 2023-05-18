@@ -1,0 +1,28 @@
+.chakram {
+
+    background-color: hsl(350, 100%, 88%);
+    font-family: "Verdana", "DejaVu Sans", "sans-serif"; 
+}
+
+.chakram.pinga {
+
+    font-size: 24px;
+
+}
+
+#dosmil {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 255); font-size: 36px;
+
+}
+
+#cuatromil {
+
+    background-color: #90ee90;
+    font-size: 24px; font-weight: bold;
+
+}
+
+
+/* Since item 3 and 4 shared 24px we could have recicle that code. will commit the fix*/
