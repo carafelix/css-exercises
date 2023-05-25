@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content:space-between;
-  flex:1;
   flex-wrap: wrap;
 }
 
@@ -20,17 +19,14 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  
 }
-
-
 
 ul {
   padding-left: 0px;
+  /* margin: 0px; */
   list-style-type: none;
   display: flex;
   gap: 2vh;
-  /* margin-left: -40px;   */
 }
 
 a {
