@@ -67,3 +67,8 @@ ul {
   align-items: center;
   gap: 16px;
 }
+
+
+/* Solution devides all in two sides of flex item-containers, and space-between them,
+making a lot of avalible room to work with in the center,
+the resulting left side is an item plus a flex item-container <ul> */
