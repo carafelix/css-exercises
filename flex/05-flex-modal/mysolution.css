@@ -20,9 +20,34 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  gap: 16px;
-  padding: 16px;
   display: flex;
+  flex-basis: 33rem;
+  gap: 1rem;
+}
+
+.midgame {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  gap: 0.5rem;
+}
+
+.areyoux {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botoncitos {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .icon {
@@ -37,6 +62,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin: 1rem;
 }
 
 .close-button {
@@ -47,9 +73,6 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
 }
@@ -71,32 +94,3 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
-
-/* .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
-} */
-
-.text {
-  margin-bottom: 16px;
-}
-
-/* Studying the solution to understand the concept since
-I overly complicated 
-and it was much more simple */
-/* 
-A big motive to learn git better and using it to check
-the original file, instead of ctrl-z like crazy.
-Is not always necesary to do a mammuschka
-*/
-
-/*Good nesting makes the difference for div arrengments!
-I had a good idea when I also separated the ! from everything else,
-just need to make sure to make the right calls on the html,
-but more so, to make visual nest for divs.
-Flex container doesn't make childrens flex
-thats critical for conceptualizing for future problems   */
