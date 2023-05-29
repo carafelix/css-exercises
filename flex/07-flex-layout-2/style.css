@@ -35,7 +35,7 @@ h1 {
 }
 
 .footer {
-  height: 3em;
+  height: 4em;
   background: #eee;
   color: darkmagenta;
   
@@ -94,8 +94,15 @@ a {
 
 .cartas {
   display: flex;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   flex-wrap: wrap;
   gap: 2rem; 
   margin: 2rem;
 }
+
+/* Barra vertical custom, firefox only???*/
+.custom-scrollbar {
+  overflow-y: auto;
+  scrollbar-color: #4169e1 #fefefe;
+}
+
