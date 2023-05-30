@@ -49,7 +49,7 @@ h1 {
 }
 
 .sidebar {
-  min-width: 300px;
+  min-width: 300px;  /*add padding is better than setting min width*/
   background: royalblue;
   box-sizing: border-box;
   display: flex;
@@ -100,9 +100,32 @@ a {
   margin: 2rem;
 }
 
-/* Barra vertical custom, firefox only???*/
+/* Barra vertical custom, firefox only??? */
+
 .custom-scrollbar {
   overflow-y: auto;
   scrollbar-color: #4169e1 #fefefe;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* better omited ↓↓↓↓ or super transparent */
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: hsla(225, 73%, 57%, 0.406);
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #8b008b;
+  border-radius: 10px;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsla(279, 100%, 27%, 0.673);
 }
 
